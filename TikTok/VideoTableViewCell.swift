@@ -31,7 +31,8 @@ class VideoTableViewCell: UITableViewCell {
         BMPlayerConf.enablePlaytimeGestures =  false
         BMPlayerConf.shouldAutoPlay = true
         
-        let resource = BMPlayerResource(url: URL(string: link)!)
+        guard let url = URL(string: link) else { return }
+        let resource = BMPlayerResource(url: url)
         player.setVideo(resource: resource)
         self.contentView.addSubview(player)
         player.snp.makeConstraints { maker in

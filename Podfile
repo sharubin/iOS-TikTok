@@ -8,5 +8,6 @@ target 'TikTok' do
   # Pods for TikTok
   pod 'SnapKit'
   pod 'BMPlayer'
+  pod 'Then'
 
 end

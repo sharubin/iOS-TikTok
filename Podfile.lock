@@ -10,22 +10,26 @@ PODS:
     - NVActivityIndicatorView/Presenter (= 4.7.0)
   - NVActivityIndicatorView/Presenter (4.7.0)
   - SnapKit (5.0.1)
+  - Then (2.7.0)
 
 DEPENDENCIES:
   - BMPlayer
   - SnapKit
+  - Then
 
 SPEC REPOS:
   trunk:
     - BMPlayer
     - NVActivityIndicatorView
     - SnapKit
+    - Then
 
 SPEC CHECKSUMS:
   BMPlayer: e4b241bd088644d7b89d991a1a65d1b1615d19b3
   NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: 82413cfa785abae58e2e2f77a99406cffd596716
+PODFILE CHECKSUM: 41c43c7dcafc78fd46075673cdbfee8d9216ce69
 
 COCOAPODS: 1.8.4
